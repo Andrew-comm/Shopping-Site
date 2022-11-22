@@ -18,10 +18,16 @@
  
 }
 .container{
-    max-width: 1068px;
+    max-width: 1000px;
     margin: auto;
     width: 100%;
 }
+
+section{
+    padding: 4rem 0 3rem;
+
+}
+
 #cart{
     font-size: 1.8rem;
     cursor: pointer;
@@ -33,7 +39,7 @@ body{
     color: var(--text-color);
 }
 header{
-    font-size: 30px;
+    font-size: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -49,4 +55,17 @@ header{
     padding: 20px 0;
 
 
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.shop{
+    margin-top: 2rem;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    gap: 1.5rem;
 }
