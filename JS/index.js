@@ -21,3 +21,14 @@ else{
     ready();
 }
 
+function ready(){
+    //remove items from cart
+
+    var removeCartButtons = document.getElementsId("cart-remove")
+    console.log(removeCartButtons)
+    for(i=0; i<removeCartButtons.length; i++){
+        var button = removeCartButtons[i]
+        button.addEventListener("click"removeCartItem)
+    }
+}
+
