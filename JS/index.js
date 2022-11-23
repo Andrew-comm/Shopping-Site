@@ -24,11 +24,11 @@ else{
 function ready(){
     //remove items from cart
 
-    var removeCartButtons = document.getElementsId("cart-remove")
+    var removeCartButtons = document.getElementsByClassName('fa fa-trash')
     console.log(removeCartButtons)
-    for(i=0; i<removeCartButtons.length; i++){
+    for(i=0; i< removeCartButtons.length; i++){
         var button = removeCartButtons[i]
-        button.addEventListener("click",removeCartItem)
+        button.addEventListener("click", removeCartItem)
     }
 }
 
