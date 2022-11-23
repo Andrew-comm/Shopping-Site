@@ -28,7 +28,15 @@ function ready(){
     console.log(removeCartButtons)
     for(i=0; i<removeCartButtons.length; i++){
         var button = removeCartButtons[i]
-        button.addEventListener("click"removeCartItem)
+        button.addEventListener("click",removeCartItem)
     }
+}
+
+//remove  cart items
+
+function removeCartItem(event){
+    var buttonClicked = event.target
+    buttonClicked.parentElement.remove()
+
 }
 
