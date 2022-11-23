@@ -60,13 +60,14 @@ header{
 .cart{
     position: fixed;
     top: 0;
-    right: -100%;
-    width: 360px;
+    right: 0;
+    width: 250px;
     min-height: 100vh;
     padding: 20px;
     background: var(--bg-color);
     box-shadow: -2px 0 4px hsl(0, 4%, 15% / 10%);
     transition: 0.3s;
+    margin-left: -3rem;
 }
 .cart.active{
     right: 0;
