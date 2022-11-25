@@ -43,6 +43,8 @@ function ready(){
         button.addEventListener("click", addcartClicked);
 
     }
+    document.getElementsByClassName('buy-btn')[0].addEventListener('click', buyButtonClicked);
+    
 
     
 }
